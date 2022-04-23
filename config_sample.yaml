@@ -1,0 +1,18 @@
+env: dev
+database:
+  url: urlofdatabase
+  user: username
+  password: password
+  name: db_todo
+cors:
+  origins:
+    - http://localhost
+    - http://localhost:4200
+  methods:
+    - GET
+    - POST
+    - PUT
+    - PATCH
+    - OPTIONS
+  headers:
+    - "*"
